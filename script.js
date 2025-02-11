@@ -33,11 +33,11 @@ console.log(car.getMakeModel()); // Output: Ferrari Testarossa
 
 // Call getTopSpeed() to get the top speed of the sports car
 console.log(car.getTopSpeed()); // Output: 200
-Explanation
-function Car(make, model) {}
 
-function SportsCar(make, model, topSpeed) {}
-
-// Do not change the code below
-window.Car = Car;
-window.SportsCar = SportsCar;
+// Test Cases
+console.log(car instanceof Car); // Output: true
+console.log(car.make); // Output: Ferrari
+console.log(car.model); // Output: Testarossa
+console.log(car.topSpeed); // Output: 200
+console.log(car.getMakeModel()); // Output: Ferrari Testarossa
+console.log(car.getTopSpeed()); // Output: 200
